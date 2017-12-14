@@ -1,0 +1,179 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/*css reset*/
+ html, body, header, nav, h1, a,
+ ul, li, strong, main, button, i,
+ section, img, div, h2, p, form,
+ fieldset, label, input, textarea,
+ span, article, footer, time, small {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font: inherit;
+   color: inherit;
+   text-align: inherit;
+   text-decoration: inherit;
+   vertical-align: inherit;
+   box-sizing: inherit;
+   background: transparent;
+ }
+
+ ul {
+   list-style: none;
+ }
+
+ img {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+
+ input[type="password"],
+ input[type="email"],
+ input[type="text"],
+ input[type="submit"],
+ textarea,
+ button {
+   /*
+   Get rid of native styling. Read more here:
+   http://css-tricks.com/almanac/properties/a/appearance/
+   */
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+ }
+
+ button,
+ input[type="submit"] {
+   cursor: pointer;
+ }
+
+ /* Clearfix */
+
+ .group:after {
+   content: "";
+   display: block;
+   clear: both;
+ }
+
+ /*////*/
+
+ body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+span {
+    font-size: .99vw;
+    font-weight: normal;
+}
+
+.session-body {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.passage {
+    text-align: center;
+    font-size: 4.3vw;
+    color: #111;
+    letter-spacing: -.026em;
+    word-spacing: 5px;
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.pitch-ctnr {
+  margin-right: 60px;
+  font-weight: 300;
+}
+
+.pitch-ctnr h1 {
+  font-size: 2vw;
+  margin-bottom: 40px;
+}
+
+.check {
+  font-size: 1.5vw;
+  color: #6375c5;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.reasons {
+  margin-top: 100px;
+}
+
+.reasons li {
+  margin-bottom: 20px;
+}
+
+.session-container {
+    text-align: center;
+    width: 30vw;
+    border: 1px solid #ededed;
+    background-color: #f9f9f9;
+    position: relative;
+    margin-top: 25px;
+}
+
+.session-input, .password-input {
+    height: 46px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px 16px;
+    width: 25vw;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    display: block;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.session-input{
+  margin-top: 10px;
+}
+
+.signup-submit {
+    color: white;
+    text-decoration: none;
+    outline: none;
+    background: linear-gradient(180deg,#0078D1 0,#0062AB);
+    font-size: 18px;
+    width: 25vw;
+    text-align: center;
+    padding: 12px 0px;
+    word-spacing: 3px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.disclosure {
+  font-size: .8vw;
+  padding: 20px;
+}

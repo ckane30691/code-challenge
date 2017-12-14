@@ -1,0 +1,140 @@
+.splash-body {
+    background: radial-gradient(#F5F5E4, #F7F7F3, #E4F5ED);
+    height: 100vh;
+}
+
+.splash-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 50px;
+}
+
+.hiretual-logo {
+    max-width: 150px;
+    max-height: 33.33px;
+}
+
+.header-links-ctnr {
+    display: flex;
+    width: 38vw;
+    line-height: 1.1;
+    color: #337ab7;
+    font-size: 1.4vw;
+    justify-content: space-between;
+}
+
+.header-link {
+    padding: 5px 15px;
+    z-index: 10;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-link:hover {
+    background: rgba(0, 113, 197, 0.1);
+}
+
+.biz {
+    padding: 5px 15px;
+    background: #0089F0;
+    color: white;
+    border: 1px solid #0089F0;
+    border-radius: 30px;
+}
+
+.biz:hover {
+    color: white;
+    background: #0074CC;
+    border: 1px solid #0074CC;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.learn-more-ctnr {
+    display: flex;
+    color: #333;
+    justify-content: space-around;
+}
+
+.call-to-action {
+    margin-left: 45px;
+    margin-top: 8.5%;
+    position: relative;
+    text-align: center
+}
+
+.cta-title {
+
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 3.6vw;
+    margin-bottom: 10px;
+}
+
+.cta-tagline {
+    font-weight: 300;
+
+    font-size: 1.6vw;
+}
+
+.cta-btn {
+    margin-top: 60px;
+    color: #0089F0;
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #0089F0;
+    width: 190px;
+}
+
+.cta-signup {
+    left: -40px;
+}
+
+.cta-signup:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    background: linear-gradient(180deg,#0089F0 0,#007EDB);
+    color: white;
+    border: 1px solid #0089F0;
+}
+  
+.cta-xtn {
+    right: -40px;
+    background-color: #0089F0;
+    color: #ffffff;
+}
+
+.cta-xtn:hover {
+    color: #0089F0;
+    background: transparent;
+    border: 1px solid #0089F0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.testimonials {
+    position: absolute;
+    bottom: -30px;
+    color: #0071C5;
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    font-size: 1.33vw;
+    margin-bottom: 10px;
+}
+
+.testimonials p {
+    font-size: 1.2vw;
+}

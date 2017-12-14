@@ -1,0 +1,172 @@
+.dash-header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding-right: 85px;
+    position: relative;
+}
+
+.burger {
+    position: absolute;
+    left: 21vw;
+    top: 10px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.dash-header-ctnr {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 12vw;
+}
+
+.dash-home-link {
+    background: #242A34;
+    color: #fff;
+    width: 18vw;
+    padding-top:10px;
+    font-weight: 600;
+}
+
+.support-menu {
+    border-radius: 15px;
+    border: 1px solid ;
+    border-color: #007EDB;
+    color: #007EDB;
+    width: 80px;
+    padding: 3px 5px;
+    font-size: 1.2vw;
+}
+
+.support-menu:hover {
+    background-color: #007EDB;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.profile-icon:hover {
+    cursor: pointer;
+}
+
+.dash-body {
+    display: flex;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    transition: linear .3s;
+}
+
+
+.side-bar {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #242A34;
+    color: #fff;
+    height: 100vh;
+    width: 18vw;
+    box-sizing: border-box;
+    padding-top:10px;
+}
+
+.side-link {
+    border-bottom: 1px solid #444;
+    font-size: 1.2vw;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-weight: 300;
+}
+
+.side-link:hover {
+    background-color: rgba(225,225,225,.2)
+}
+
+.side-link span {
+    margin-right: 10px;
+}
+
+.globe-icon {
+    height: 15px;
+    width: 15px;
+    float: left;
+    margin-top: 3px;
+}
+
+.side-btn {
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    bottom: 48vh;
+    left: 20px;
+    background-color: #007EDB;
+    color: white;
+    border-color: #007EDB;
+    font-size: 1vw;
+    font-weight: 600;
+    padding: 11px 17px;
+    word-spacing: 3px;
+    border-radius: 3px;
+}
+
+.side-btn:hover {
+    background-color: #78A7CC;
+    border-color: #78A7CC;
+    color: white;
+}
+
+.add-to-chrome-ctnr {
+    position: relative;
+    width: 55vw;
+    margin-left: 50px;
+    margin-top:10px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    line-height: 1.42857143;
+    color: #333;
+    border-bottom: 1px solid #bfbfbf;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    border-color: rgba(0,0,0,0.15);
+}
+
+.add-to-chrome-ctnr h1 {
+    margin-bottom: 10px;
+    font-size: 1.3vw;
+}
+
+.add-to-chrome-ctnr p {
+    font-size: 1vw;
+    margin-bottom: 8px;
+}
+
+.chrome-logo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 60px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, .2);
+}
+
+.install-btn {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+    padding: 9px 25px;
+    font-size: 1vw;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.install-btn:hover {
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
