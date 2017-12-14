@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, hashHistory } from 'react-router';
-import Header from '../greeting/header';
+import HeaderContainer from '../greeting/header_container';
 
 // NOTE still need to implement render errors
 
@@ -70,7 +70,7 @@ class SessionForm extends React.Component {
 
         return (
             <div>
-                <Header />
+                <HeaderContainer />
 
                 {passage}
                 <div className="session-body">
