@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from '../image-viewer/slider';
-import Header from './header'
+import HeaderContainer from './header_container'
 
 class Splash extends React.Component {
 
     render() {
         return (
             <div className="splash-body">
-                <Header />
+                <HeaderContainer />
 
                 <div className='learn-more-ctnr'>
                     <div className="call-to-action">

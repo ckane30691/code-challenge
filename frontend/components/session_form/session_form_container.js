@@ -17,7 +17,7 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     return {
         processForm: user => dispatch(processForm(user)),
         formType,
-        receiveCurrentUser: (id) => dispatch(receiveCurrentUser())
+        receiveCurrentUser: (id) => dispatch(receiveCurrentUser(id))
     };
 };
 
